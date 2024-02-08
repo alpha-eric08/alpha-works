@@ -5,3 +5,74 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(330, 100%, 98%);
 }
+
+h1 {
+  font-family: "Young serif", san-serif;
+}
+h2 {
+  font-family: "Young serif", sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-size: medium;
+}
+/* Paragraph */
+p {
+  color: hsl(24, 5%, 18%);
+}
+/* Preparation background */
+.bg-eggshell {
+  background-color: hsl(30, 54%, 90%);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: bolder;
+}
+
+span {
+  color: hsl(24, 5%, 18%);
+  font-size: medium;
+  font-weight: bold;
+}
+ol.list-decimal li {
+  position: relative; /* Needed to position the pseudo-element */
+  /* margin-bottom: 10px; Space between list items */
+  padding-left: 20px; /* Space for the marker */
+}
+.list-disc li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.list-decimal li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  margin-left: 0px;
+}
+li {
+  padding: 5px 0 5px 0;
+}
+
+table {
+  width: 100%;
+  margin: 5px;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  color: hsl(24, 5%, 18%);
+  padding: 10px 0 10px 0;
+  padding-left: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: gray;
+}
+
+table tr td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  text-align: left;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
